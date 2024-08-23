@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio-Arizky</title>
+    <link rel="stylesheet" href="src/output.css">
+    <style>
+        .custom-bg {
+            background-image: url('img/bgg.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .bg-white-opacity-45 {
+            background-color: rgba(255, 255, 255, 0.45);
+            /* Putih dengan opacity 45% */
+        }
+    </style>
+</head>
+
+<body class="custom-bg text-white flex  justify-center justify-items-center ">
+    <!-- Overlay -->
+    <div class="bg-black bg-opacity-50 min-h-screen">
+        <!-- Navbar -->
+        <nav class="bg-white bg-opacity-45 py-2 shadow-md flex overflow-x-auto">
+            <div class="container mx-auto flex justify-between items-center px-6 gap-{12px}">
+                <div class="text-2xl font-mono font-style: italic  text-[#091D54] "> PORTOFOLIO </div>
+                <ul class="flex space-x-6 text-[#091D54] font-semibold">
+                    <li><a href="#" class="hover:text-[#732241]">About</a></li>
+                    <li><a href="#" class="hover:text-[#732241]">Experience</a></li>
+                    <li><a href="#" class="hover:text-[#732241]">Project</a></li>
+                    <li><a href="#" class="hover:text-[#732241]">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Header -->
+        <header class="container mx-auto mt-10 px-6 justify-items-center ">
+            <div class="flex flex-col lg:flex-row items-center justify-between">
+                <div class="text-center lg:text-left mb-6 lg:mb-0">
+                    <h1 class="text-4xl font-bold mb-4">Halo Semua, Saya <span class="text-indigo-700">Arizky Kelana
+                            Haryadi👋</span></h1>
+                    <p class="text-lg text-white mb-4">Saya mahasiswa semester akhir di Universitas Indraprasta PGRI
+                        dengan jurusan Teknik Informatika ini adalah sedikit informasi dari saya</p>
+                    <div class="flex justify-center lg:justify-start space-x-4 text-white">
+                        <a href="#" class="hover:text-indigo-500">LinkedIn</a>
+                        <a href="#" class="hover:text-indigo-500">GitHub</a>
+                        <a href="#" class="hover:text-indigo-500">Instagram</a>
+                    </div>
+                </div>
+                <img src="https://via.placeholder.com/150" alt="Profile" class="rounded-full shadow-lg">
+            </div>
+        </header>
+
+        <!-- About Section -->
+        <section class="container mx-auto mt-16 px-6 flex justify-items-center">
+            <div class="bg-white-opacity-45 p-8 rounded-lg shadow-md flex flex-col lg:flex-row items-center">
+                <img src="https://via.placeholder.com/200" alt="About Image"
+                    class="rounded-lg shadow-lg mb-6 lg:mb-0 lg:mr-8">
+                <div>
+                    <h2 class="text-2xl font-bold mb-4 text-black">Tentang saya : </h2>
+                    <p class="text-black mb-4">Saya adalah seorang full-stack developer, yang sekarang sedang belajar di
+                        bootcamp Harisenin.com </p>
+                    <p class="text-black mb-4">Oiya saya juga lumayan banyak menguasai beberapa jenis bahasa pemograman
+                        loh, karana saya hobi untuk memperlajari hal yang membuat saya tertarik seperti bahasa
+                        pemograman.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="container mx-auto mt-16 px-6">
+            <h2 class="text-2xl font-bold text-center mb-8">Ini Beberapa Bahasa Skill yang saya kuasai :</h2>
+            <div class="flex flex-wrap justify-center gap-6">
+                <!-- Icons/Logos Placeholder -->
+                <img src="img/JS.png" alt="Skill 1">
+                <img src="img/HTML.png" alt="Skill 2">
+                <img src="img/css.png" alt="Skill 3">
+                <img src="img/python.png" alt="Skill 4">
+                <img src="img/java.png" alt="Skill 5">
+                <img src="img/php.png" alt="Skill 6">
+                <img src="img/tailwind.png" alt="Skill 7">
+                <img src="img/rjs.png" alt="Skill 8">
+                <img src="img/git.png" alt="Skill 9">
+                <!-- Add more skills here -->
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="container mx-auto mt-16 px-6">
+            <h2 class="text-2xl font-bold text-center mb-8">Experience</h2>
+            <div class="bg-white bg-white-opacity-45 p-6 rounded-lg shadow-md mb-6">
+                <div class="flex justify-between items-center mb-4">
+                    <h3 class="text-xl font-bold">Frontend Developer</h3>
+                    <span class="text-[#091D54]">2024</span>
+                </div>
+                <ul class="text-black">
+                    <li>- Developed new user-facing features</li>
+                    <li>- Built reusable code and libraries</li>
+                    <li>- Optimized application for speed and scalability</li>
+                </ul>
+            </div>
+            <!-- tambah kolo ada -->
+        </section>
+
+        <!-- Projects Section -->
+        <section class="container mx-auto mt-16 px-6">
+            <h2 class="text-2xl font-bold text-center mb-8">Project yang saya buat :</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!--1-->
+                <div class="bg-white-opacity-45 p-6 rounded-lg shadow-md">
+                    <img src="img/modified_image.png" alt="Project Image" class="rounded-lg mb-4">
+                    <h3 class="text-xl font-bold mb-2">Project Title</h3>
+                    <p class="text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel
+                        enim tortor.</p>
+                    <a href="#" class="text-indigo-500 hover:underline">View Project</a>
+                </div>
+                <!--2-->
+                <div class="bg-white-opacity-45 p-6 rounded-lg shadow-md">
+                    <img src="img/modified_image.png" alt="Project Image" class="rounded-lg mb-4">
+                    <h3 class="text-xl font-bold mb-2">Project Title</h3>
+                    <p class="text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel
+                        enim tortor.</p>
+                    <a href="#" class="text-indigo-500 hover:underline">View Project</a>
+                </div>
+                <!--3-->
+                <div class="bg-white-opacity-45 p-6 rounded-lg shadow-md">
+                    <img src="img/modified_image.png" alt="Project Image" class="rounded-lg mb-4">
+                    <h3 class="text-xl font-bold mb-2">Project Title</h3>
+                    <p class="text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel
+                        enim tortor.</p>
+                    <a href="#" class="text-indigo-500 hover:underline">View Project</a>
+                </div>
+                <!-- Add more project cards here -->
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="container mx-auto mt-16 px-6">
+            <h2 class="text-2xl font-bold text-center mb-8">penulisan saya</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white-opacity-45 p-6 rounded-lg shadow-md">
+                    <img src="img/modified_image.png" alt="Project Image" class="rounded-lg mb-4">
+                    <h3 class="text-xl font-bold mb-2">Project Title</h3>
+                    <p class="text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel
+                        enim tortor.</p>
+                    <a href="#" class="text-indigo-500 hover:underline">View Project</a>
+                </div>
+                <!-- Add more testimonials here -->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <footer class="bg-white-opacity-45 py-10 mt-16 shadow-md">
+            <div class="container mx-auto text-center">
+                <p class="text-gray-700 mb-4">What's next? Feel free to reach out to me if you're looking for an
+                    adventure,
+                    have a query, or simply want to connect.</p>
+                <p class="text-lg font-bold mb-4">arizky.wb.tkj2@gamil.com</p>
+                <p class="text-lg font-bold mb-8">+62-812-9627-8487</p>
+                <div class="flex justify-center space-x-6 text-gray-600">
+                    <a href="#" class="hover:text-indigo-500">LinkedIn</a>
+                    <a href="#" class="hover:text-indigo-500">GitHub</a>
+                    <a href="#" class="hover:text-indigo-500">Twitter</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
